@@ -5,8 +5,6 @@ At the moment this app is empty. But Soon _tm_ it won't just be that.
 
 ## Demo
 
-![](http://i.imgur.com/AhGY28T.gif)
-
 ```
 git clone https://github.com/gaearon/react-transform-boilerplate.git
 cd react-transform-boilerplate
