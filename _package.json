@@ -1,0 +1,35 @@
+{
+  "name": "hourmon",
+  "version": "1.0.0",
+  "description": "Reads data from Harvest and shows clearly how much billable time per client we have used",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/one19/hourmon.git"
+  },
+  "keywords": [
+    "tool",
+    "internal",
+    "prismatik",
+    "d3",
+    "heroku",
+    "node",
+    "mocha",
+    "harvest"
+  ],
+  "author": "Drew Showalter",
+  "license": "(ISC)",
+  "bugs": {
+    "url": "https://github.com/one19/hourmon/issues"
+  },
+  "homepage": "https://github.com/one19/hourmon",
+  "dependencies": {
+    "harvest": "^0.1.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.2.5"
+  },
+  "readme": "readme.md"
+}
