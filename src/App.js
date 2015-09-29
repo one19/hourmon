@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { NICE, SUPER_NICE } from './colors';
+import { GOLD, BLACK } from './colors';
 
 class Counter extends Component {
   constructor(props) {
     super(props);
     this.state = { counter: 0 };
-    this.interval = setInterval(() => this.tick(), 1000);
+    this.interval = setInterval(() => this.tick(), 2000);
   }
 
   tick() {
@@ -31,8 +31,8 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Counter increment={1} color={NICE} />
-        <Counter increment={5} color={SUPER_NICE} />
+        <Counter increment={1} color={GOLD} />
+        <Counter increment={2} color={BLACK} />
       </div>
     );
   }
