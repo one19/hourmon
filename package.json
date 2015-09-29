@@ -55,6 +55,7 @@
   "dependencies": {
     "harvest": "^0.1.0",
     "react": "^0.13.0",
+    "rethinkdb": "^2.1.1",
     "winston": "^1.0.2",
     "winston-loggly": "^1.1.0"
   }
