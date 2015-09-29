@@ -1,0 +1,21 @@
+2015-09-29T17:15:11.425461000 0.371969s notice: Recursively removing directory /Users/one19/Work/Prismatik/Tools/hourmon/rethinkdb_data/tmp
+2015-09-29T17:15:11.427332000 0.373844s notice: Initializing directory /Users/one19/Work/Prismatik/Tools/hourmon/rethinkdb_data
+2015-09-29T17:15:11.427411000 0.373919s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/one19/Work/Prismatik/Tools/hourmon/rethinkdb_data' did not already exist or is empty.)
+2015-09-29T17:15:11.428125000 0.374632s notice: Running rethinkdb 2.1.4 (CLANG 7.0.0 (clang-700.0.72))...
+2015-09-29T17:15:11.439850000 0.386358s notice: Running on Darwin 14.5.0 x86_64
+2015-09-29T17:15:11.439906000 0.386413s notice: Loading data from directory /Users/one19/Work/Prismatik/Tools/hourmon/rethinkdb_data
+2015-09-29T17:15:11.541253000 0.487761s info: Automatically using cache size of 921 MB
+2015-09-29T17:15:11.541961000 0.488468s notice: Listening for intracluster connections on port 29015
+2015-09-29T17:15:11.546185000 0.492692s notice: Listening for client driver connections on port 28015
+2015-09-29T17:15:11.546403000 0.492910s notice: Listening for administrative HTTP connections on port 8080
+2015-09-29T17:15:11.546412000 0.492919s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-29T17:15:11.546413000 0.492920s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-29T17:15:11.546415000 0.492922s notice: Server ready, "Johns_MacBook_Pro_local_9yd" 04126767-4b2d-4ded-9cf0-420989d14e7a
+2015-09-29T17:15:18.699309000 7.646111s info: Table 8b51fc10-1224-4c26-89e4-7a0ee6db869b: Added replica on this server.
+2015-09-29T17:15:20.616905000 9.563766s info: Table 8b51fc10-1224-4c26-89e4-7a0ee6db869b: Starting a new Raft election for term 1.
+2015-09-29T17:15:20.640488000 9.587349s info: Table 8b51fc10-1224-4c26-89e4-7a0ee6db869b: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-29T17:15:39.870091000 28.817717s notice: Server got SIGINT from pid 219, uid 501; shutting down...
+2015-09-29T17:15:39.870314000 28.817940s notice: Shutting down client connections...
+2015-09-29T17:15:39.873094000 28.820720s notice: All client connections closed.
+2015-09-29T17:15:39.873111000 28.820737s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-09-29T17:15:39.876713000 28.824338s notice: Storage engine shut down.

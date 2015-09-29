@@ -9,6 +9,6 @@ var Harvest = require('harvest'),
 
 TimeTracking.daily({}, function(err, tasks) {
     if (err) {throw new Error(err)}
-
+    console.log("tasks", tasks);
 // work with tasks
 });
